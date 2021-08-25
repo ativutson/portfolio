@@ -158,7 +158,8 @@ nav ul li a {
 }
 .box-1,
 .box-2,
-.box-3 {
+.box-3,
+.box-4 {
 	width: 300px;
 	height: 320px;
     background-position: center;
@@ -184,9 +185,14 @@ nav ul li a {
 	background-image: url("./Images/project 3.png");
 }
 
+.box-4 {
+	background-image: url("./Images/project 4.png");
+}
+
 .box-1 button,
 .box-2 button,
-.box-3 button {
+.box-3 button,
+.box-4 button {
 	width: 100px;
 	height: 30px;
 	background-color: white;
