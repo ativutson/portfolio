@@ -265,7 +265,8 @@ footer {
 	display: flex;
 	
 }
-.social-icons i,.social i {
+.social-icons i,
+.social i {
 	color: #000000;
 }
 .social-icons a:hover {
@@ -349,7 +350,10 @@ footer {
 	.services {
 		height: auto;
 	}
-	.box-1,.box-2,.box-3 {
+	.box-1,
+	.box-2,
+	.box-3,
+	.box-4  {
 		flex-grow: 1;
 		margin: 10px;
 	}
@@ -376,12 +380,13 @@ footer {
 	.toggle {
 		display: block;
 	}
-	/* .text-container p:nth-child(2) {
+	
+	.text-container p:nth-child(2) {
 		line-height: 40px;
 		margin: 0px;
 		padding: 0px;
-		
-	} */
+	}
+
 	.text-container {
 		top: 60%;
 		left: 50%;
